@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2833C20A2BFE217900316253 /* ABCGravity-XXCompressed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2833C2092BFE217900316253 /* ABCGravity-XXCompressed.otf */; };
+		2833C20B2BFE217900316253 /* ABCGravity-XXCompressed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2833C2092BFE217900316253 /* ABCGravity-XXCompressed.otf */; };
+		2833C20C2BFE217900316253 /* ABCGravity-XXCompressed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2833C2092BFE217900316253 /* ABCGravity-XXCompressed.otf */; };
+		284ECDB52BFF41AD001969E8 /* IrisTwin in Frameworks */ = {isa = PBXBuildFile; productRef = 284ECDB42BFF41AD001969E8 /* IrisTwin */; };
+		284ECDB72BFF41AD001969E8 /* IrisTwinUI in Frameworks */ = {isa = PBXBuildFile; productRef = 284ECDB62BFF41AD001969E8 /* IrisTwinUI */; };
+		28B72E1D2BFCB6BE0089CF15 /* iris_keyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72E1C2BFCB6BE0089CF15 /* iris_keyboardApp.swift */; };
+		28B72E1F2BFCB6BE0089CF15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72E1E2BFCB6BE0089CF15 /* ContentView.swift */; };
+		28B72E212BFCB6BE0089CF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B72E202BFCB6BE0089CF15 /* Assets.xcassets */; };
+		28B72E242BFCB6BE0089CF15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B72E232BFCB6BE0089CF15 /* Preview Assets.xcassets */; };
+		28B72E2E2BFCB6BF0089CF15 /* iris_keyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72E2D2BFCB6BF0089CF15 /* iris_keyboardTests.swift */; };
+		28B72E382BFCB6BF0089CF15 /* iris_keyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72E372BFCB6BF0089CF15 /* iris_keyboardUITests.swift */; };
+		28B72E3A2BFCB6BF0089CF15 /* iris_keyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72E392BFCB6BF0089CF15 /* iris_keyboardUITestsLaunchTests.swift */; };
+		28F0632C2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0632B2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28B72E2A2BFCB6BF0089CF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B72E112BFCB6BE0089CF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B72E182BFCB6BE0089CF15;
+			remoteInfo = "iris-keyboard";
+		};
+		28B72E342BFCB6BF0089CF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B72E112BFCB6BE0089CF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B72E182BFCB6BE0089CF15;
+			remoteInfo = "iris-keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2833C2092BFE217900316253 /* ABCGravity-XXCompressed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ABCGravity-XXCompressed.otf"; sourceTree = "<group>"; };
+		28B72E192BFCB6BE0089CF15 /* iris-keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iris-keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B72E1C2BFCB6BE0089CF15 /* iris_keyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_keyboardApp.swift; sourceTree = "<group>"; };
+		28B72E1E2BFCB6BE0089CF15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28B72E202BFCB6BE0089CF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28B72E232BFCB6BE0089CF15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28B72E292BFCB6BF0089CF15 /* iris-keyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iris-keyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B72E2D2BFCB6BF0089CF15 /* iris_keyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_keyboardTests.swift; sourceTree = "<group>"; };
+		28B72E332BFCB6BF0089CF15 /* iris-keyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iris-keyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B72E372BFCB6BF0089CF15 /* iris_keyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_keyboardUITests.swift; sourceTree = "<group>"; };
+		28B72E392BFCB6BF0089CF15 /* iris_keyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_keyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28B72E462BFCD4C90089CF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		28F0632B2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearBackgroundTextEditor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28B72E162BFCB6BE0089CF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284ECDB52BFF41AD001969E8 /* IrisTwin in Frameworks */,
+				284ECDB72BFF41AD001969E8 /* IrisTwinUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B72E262BFCB6BF0089CF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B72E302BFCB6BF0089CF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B72E102BFCB6BD0089CF15 = {
+			isa = PBXGroup;
+			children = (
+				28B72E1B2BFCB6BE0089CF15 /* iris-keyboard */,
+				28B72E2C2BFCB6BF0089CF15 /* iris-keyboardTests */,
+				28B72E362BFCB6BF0089CF15 /* iris-keyboardUITests */,
+				28B72E1A2BFCB6BE0089CF15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28B72E1A2BFCB6BE0089CF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B72E192BFCB6BE0089CF15 /* iris-keyboard.app */,
+				28B72E292BFCB6BF0089CF15 /* iris-keyboardTests.xctest */,
+				28B72E332BFCB6BF0089CF15 /* iris-keyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28B72E1B2BFCB6BE0089CF15 /* iris-keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				28B72E462BFCD4C90089CF15 /* Info.plist */,
+				28B72E1C2BFCB6BE0089CF15 /* iris_keyboardApp.swift */,
+				28B72E1E2BFCB6BE0089CF15 /* ContentView.swift */,
+				28F0632B2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift */,
+				28B72E202BFCB6BE0089CF15 /* Assets.xcassets */,
+				2833C2092BFE217900316253 /* ABCGravity-XXCompressed.otf */,
+				28B72E222BFCB6BE0089CF15 /* Preview Content */,
+			);
+			path = "iris-keyboard";
+			sourceTree = "<group>";
+		};
+		28B72E222BFCB6BE0089CF15 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28B72E232BFCB6BE0089CF15 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28B72E2C2BFCB6BF0089CF15 /* iris-keyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				28B72E2D2BFCB6BF0089CF15 /* iris_keyboardTests.swift */,
+			);
+			path = "iris-keyboardTests";
+			sourceTree = "<group>";
+		};
+		28B72E362BFCB6BF0089CF15 /* iris-keyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28B72E372BFCB6BF0089CF15 /* iris_keyboardUITests.swift */,
+				28B72E392BFCB6BF0089CF15 /* iris_keyboardUITestsLaunchTests.swift */,
+			);
+			path = "iris-keyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28B72E182BFCB6BE0089CF15 /* iris-keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B72E3D2BFCB6BF0089CF15 /* Build configuration list for PBXNativeTarget "iris-keyboard" */;
+			buildPhases = (
+				28B72E152BFCB6BE0089CF15 /* Sources */,
+				28B72E162BFCB6BE0089CF15 /* Frameworks */,
+				28B72E172BFCB6BE0089CF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iris-keyboard";
+			packageProductDependencies = (
+				284ECDB42BFF41AD001969E8 /* IrisTwin */,
+				284ECDB62BFF41AD001969E8 /* IrisTwinUI */,
+			);
+			productName = "iris-keyboard";
+			productReference = 28B72E192BFCB6BE0089CF15 /* iris-keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28B72E282BFCB6BF0089CF15 /* iris-keyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B72E402BFCB6BF0089CF15 /* Build configuration list for PBXNativeTarget "iris-keyboardTests" */;
+			buildPhases = (
+				28B72E252BFCB6BF0089CF15 /* Sources */,
+				28B72E262BFCB6BF0089CF15 /* Frameworks */,
+				28B72E272BFCB6BF0089CF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28B72E2B2BFCB6BF0089CF15 /* PBXTargetDependency */,
+			);
+			name = "iris-keyboardTests";
+			productName = "iris-keyboardTests";
+			productReference = 28B72E292BFCB6BF0089CF15 /* iris-keyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28B72E322BFCB6BF0089CF15 /* iris-keyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B72E432BFCB6BF0089CF15 /* Build configuration list for PBXNativeTarget "iris-keyboardUITests" */;
+			buildPhases = (
+				28B72E2F2BFCB6BF0089CF15 /* Sources */,
+				28B72E302BFCB6BF0089CF15 /* Frameworks */,
+				28B72E312BFCB6BF0089CF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28B72E352BFCB6BF0089CF15 /* PBXTargetDependency */,
+			);
+			name = "iris-keyboardUITests";
+			productName = "iris-keyboardUITests";
+			productReference = 28B72E332BFCB6BF0089CF15 /* iris-keyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28B72E112BFCB6BE0089CF15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					28B72E182BFCB6BE0089CF15 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					28B72E282BFCB6BF0089CF15 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 28B72E182BFCB6BE0089CF15;
+					};
+					28B72E322BFCB6BF0089CF15 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 28B72E182BFCB6BE0089CF15;
+					};
+				};
+			};
+			buildConfigurationList = 28B72E142BFCB6BE0089CF15 /* Build configuration list for PBXProject "iris-keyboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28B72E102BFCB6BD0089CF15;
+			packageReferences = (
+				284ECDB32BFF41AD001969E8 /* XCRemoteSwiftPackageReference "IrisTwin" */,
+			);
+			productRefGroup = 28B72E1A2BFCB6BE0089CF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28B72E182BFCB6BE0089CF15 /* iris-keyboard */,
+				28B72E282BFCB6BF0089CF15 /* iris-keyboardTests */,
+				28B72E322BFCB6BF0089CF15 /* iris-keyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28B72E172BFCB6BE0089CF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B72E242BFCB6BE0089CF15 /* Preview Assets.xcassets in Resources */,
+				28B72E212BFCB6BE0089CF15 /* Assets.xcassets in Resources */,
+				2833C20A2BFE217900316253 /* ABCGravity-XXCompressed.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B72E272BFCB6BF0089CF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2833C20B2BFE217900316253 /* ABCGravity-XXCompressed.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B72E312BFCB6BF0089CF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2833C20C2BFE217900316253 /* ABCGravity-XXCompressed.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B72E152BFCB6BE0089CF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B72E1F2BFCB6BE0089CF15 /* ContentView.swift in Sources */,
+				28B72E1D2BFCB6BE0089CF15 /* iris_keyboardApp.swift in Sources */,
+				28F0632C2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B72E252BFCB6BF0089CF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B72E2E2BFCB6BF0089CF15 /* iris_keyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B72E2F2BFCB6BF0089CF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B72E3A2BFCB6BF0089CF15 /* iris_keyboardUITestsLaunchTests.swift in Sources */,
+				28B72E382BFCB6BF0089CF15 /* iris_keyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28B72E2B2BFCB6BF0089CF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B72E182BFCB6BE0089CF15 /* iris-keyboard */;
+			targetProxy = 28B72E2A2BFCB6BF0089CF15 /* PBXContainerItemProxy */;
+		};
+		28B72E352BFCB6BF0089CF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B72E182BFCB6BE0089CF15 /* iris-keyboard */;
+			targetProxy = 28B72E342BFCB6BF0089CF15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28B72E3B2BFCB6BF0089CF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28B72E3C2BFCB6BF0089CF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28B72E3E2BFCB6BF0089CF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iris-keyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iris-keyboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		28B72E3F2BFCB6BF0089CF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iris-keyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iris-keyboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		28B72E412BFCB6BF0089CF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-keyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iris-keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iris-keyboard";
+			};
+			name = Debug;
+		};
+		28B72E422BFCB6BF0089CF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-keyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iris-keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iris-keyboard";
+			};
+			name = Release;
+		};
+		28B72E442BFCB6BF0089CF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-keyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iris-keyboard";
+			};
+			name = Debug;
+		};
+		28B72E452BFCB6BF0089CF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-keyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iris-keyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28B72E142BFCB6BE0089CF15 /* Build configuration list for PBXProject "iris-keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B72E3B2BFCB6BF0089CF15 /* Debug */,
+				28B72E3C2BFCB6BF0089CF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B72E3D2BFCB6BF0089CF15 /* Build configuration list for PBXNativeTarget "iris-keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B72E3E2BFCB6BF0089CF15 /* Debug */,
+				28B72E3F2BFCB6BF0089CF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B72E402BFCB6BF0089CF15 /* Build configuration list for PBXNativeTarget "iris-keyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B72E412BFCB6BF0089CF15 /* Debug */,
+				28B72E422BFCB6BF0089CF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B72E432BFCB6BF0089CF15 /* Build configuration list for PBXNativeTarget "iris-keyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B72E442BFCB6BF0089CF15 /* Debug */,
+				28B72E452BFCB6BF0089CF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		284ECDB32BFF41AD001969E8 /* XCRemoteSwiftPackageReference "IrisTwin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/irisona/IrisTwin";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		284ECDB42BFF41AD001969E8 /* IrisTwin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284ECDB32BFF41AD001969E8 /* XCRemoteSwiftPackageReference "IrisTwin" */;
+			productName = IrisTwin;
+		};
+		284ECDB62BFF41AD001969E8 /* IrisTwinUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284ECDB32BFF41AD001969E8 /* XCRemoteSwiftPackageReference "IrisTwin" */;
+			productName = IrisTwinUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 28B72E112BFCB6BE0089CF15 /* Project object */;
+}
