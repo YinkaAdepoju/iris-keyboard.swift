@@ -19,7 +19,6 @@
 		28B72E2E2BFCB6BF0089CF15 /* iris_keyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72E2D2BFCB6BF0089CF15 /* iris_keyboardTests.swift */; };
 		28B72E382BFCB6BF0089CF15 /* iris_keyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72E372BFCB6BF0089CF15 /* iris_keyboardUITests.swift */; };
 		28B72E3A2BFCB6BF0089CF15 /* iris_keyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72E392BFCB6BF0089CF15 /* iris_keyboardUITestsLaunchTests.swift */; };
-		28F0632C2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0632B2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		28B72E372BFCB6BF0089CF15 /* iris_keyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_keyboardUITests.swift; sourceTree = "<group>"; };
 		28B72E392BFCB6BF0089CF15 /* iris_keyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_keyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		28B72E462BFCD4C90089CF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		28F0632B2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearBackgroundTextEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				28B72E462BFCD4C90089CF15 /* Info.plist */,
 				28B72E1C2BFCB6BE0089CF15 /* iris_keyboardApp.swift */,
 				28B72E1E2BFCB6BE0089CF15 /* ContentView.swift */,
-				28F0632B2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift */,
 				28B72E202BFCB6BE0089CF15 /* Assets.xcassets */,
 				2833C2092BFE217900316253 /* ABCGravity-XXCompressed.otf */,
 				28B72E222BFCB6BE0089CF15 /* Preview Content */,
@@ -283,7 +280,6 @@
 			files = (
 				28B72E1F2BFCB6BE0089CF15 /* ContentView.swift in Sources */,
 				28B72E1D2BFCB6BE0089CF15 /* iris_keyboardApp.swift in Sources */,
-				28F0632C2BFCEAD600588B79 /* ClearBackgroundTextEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
